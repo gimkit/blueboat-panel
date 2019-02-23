@@ -1,5 +1,6 @@
 {
   "name": "blueboat-panel",
+  "proxy": "http://localhost:4000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,8 +8,12 @@
     "@types/node": "11.9.4",
     "@types/react": "16.8.4",
     "@types/react-dom": "16.8.2",
+    "antd": "^3.13.5",
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-json-view": "^1.19.1",
     "react-scripts": "2.1.5",
     "typescript": "3.3.3333"
   },
